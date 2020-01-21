@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Info-pHAT-rescue)(type Legacy)(uri ${KIPRJMOD}/Info-pHAT-rescue.lib)(options "")(descr ""))
+)
