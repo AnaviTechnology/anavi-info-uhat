@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 27)
+    (drawings 29)
     (tracks 220)
     (zones 0)
     (modules 26)
@@ -96,7 +96,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "plots/rev11/"))
+      (outputdirectory "plots/rev11a/"))
   )
 
   (net 0 "")
@@ -1043,6 +1043,12 @@
     )
   )
 
+  (gr_text < (at 174.85 102) (layer F.SilkS) (tstamp 60E2ACA2)
+    (effects (font (size 0.8 0.8) (thickness 0.1)))
+  )
+  (gr_text < (at 169.05 102) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.1)))
+  )
   (gr_text "SDA SCL GND 3.3V" (at 179 99.2) (layer F.SilkS) (tstamp 60D2C08F)
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
@@ -1329,7 +1335,7 @@
   (segment (start 158.4 83.4) (end 159.2 82.6) (width 0.5) (layer F.Cu) (net 17))
   (segment (start 158.4 93.8) (end 158.4 83.4) (width 0.5) (layer F.Cu) (net 17))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 60D2BF46) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 60E2B487) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1812,7 +1818,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 60D2BF43) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 60E2B484) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
