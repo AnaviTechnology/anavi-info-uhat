@@ -1,8 +1,9 @@
-# ANAVI Info pHAT
+# ANAVI Info uHAT
 
-ANAVI Info pHAT is an open source hardware Raspberry Pi pHAT (add-on board) for rapid prototyping of Internet of Things (IoT) powered by free and open source software. It features:
+ANAVI Info uHAT is an open source hardware Raspberry Pi uHAT (add-on board) for rapid prototyping of Internet of Things (IoT) powered by free and open source software. It features:
 
 * 3 Buttons
+* Red and green indication LEDs
 * Slot of mini OLED I2C display
 * Slots for up to 3 plug and play I2C sensors for temperature, barometric pressure, humidity and light
 * UART (Universal asynchronous receiver/transmitter) pins for debugging
